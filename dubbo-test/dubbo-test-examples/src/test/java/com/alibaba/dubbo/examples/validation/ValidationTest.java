@@ -47,7 +47,7 @@ public class ValidationTest {
             try {
                 ValidationService validationService = (ValidationService) consumerContext.getBean("validationService");
                 
-                // Save OK
+                // Save OK test
                 ValidationParameter parameter = new ValidationParameter();
                 parameter.setName("liangfei");
                 parameter.setEmail("liangfei@liang.fei");
